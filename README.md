@@ -6,7 +6,7 @@ A machine learning project for predicting credit default risk using the German C
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.0+-orange.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.0+-red.svg)
 
-## 📋 Project Overview
+##  Project Overview
 
 Credit risk assessment is crucial for banking institutions to minimize loan defaults. This project builds a machine learning model that predicts whether a customer will default on their credit, enabling better lending decisions.
 
@@ -18,7 +18,7 @@ Credit risk assessment is crucial for banking institutions to minimize loan defa
 - **Credit Scoring System** - Custom scoring system (0-1000) with risk categories
 - **Interactive Dashboard** - Streamlit web application for real-time predictions
 
-## 📊 Dataset
+##  Dataset
 
 **German Credit Risk Dataset**
 - **Source:** UCI Machine Learning Repository
@@ -27,7 +27,7 @@ Credit risk assessment is crucial for banking institutions to minimize loan defa
 - **Target:** Risk (good/bad)
 - **Default Rate:** 30%
 
-## 🔍 Methodology
+##  Methodology
 
 ### 1. Data Preprocessing
 - Handled missing values in 'Saving accounts' (18.3%) and 'Checking account' (39.4%)
@@ -57,7 +57,7 @@ Credit risk assessment is crucial for banking institutions to minimize loan defa
 | 450-549 | Poor | High |
 | 0-449 | Very Poor | Very High |
 
-## 📈 Key Findings
+##  Key Findings
 
 1. **Checking Account Status** is the strongest predictor of default
 2. **Higher credit amounts** correlate with increased default risk
@@ -65,7 +65,7 @@ Credit risk assessment is crucial for banking institutions to minimize loan defa
 4. **Purpose matters:** Vacation and "other" loans show highest default rates
 5. **Age effect:** Younger customers (< 25) show slightly higher default rates
 
-## 🚀 Installation & Usage
+##  Installation & Usage
 
 ### Prerequisites
 ```bash
@@ -82,7 +82,7 @@ python credit_risk_analysis.py
 streamlit run app.py
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 credit-risk-prediction/
@@ -111,14 +111,14 @@ credit-risk-prediction/
 ### ROC Curve Comparison
 ![ROC Curve](figures/10_roc_curve_comparison.png)
 
-## 💡 Business Applications
+##  Business Applications
 
 - **Loan Approval Automation:** Instant credit decisions based on risk scores
 - **Risk-Based Pricing:** Adjust interest rates according to credit score
 - **Portfolio Management:** Identify high-risk segments for monitoring
 - **Marketing:** Target customers with appropriate financial products
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Python 3.8+**
 - **Pandas & NumPy** - Data manipulation
@@ -129,7 +129,7 @@ credit-risk-prediction/
 - **Plotly** - Interactive charts
 - **Streamlit** - Web dashboard
 
-## 📝 Future Improvements
+##  Future Improvements
 
 - [ ] Implement deep learning models (Neural Networks)
 - [ ] Add SHAP values for model interpretability
@@ -137,19 +137,19 @@ credit-risk-prediction/
 - [ ] Deploy to cloud (AWS/GCP/Azure)
 - [ ] Add API endpoint for real-time predictions
 
-## 👤 Author
+##  Author
 
 **Burak Aktaş**
 - Industrial Engineering Graduate
 - Junior Data Analyst
-- [LinkedIn](https://linkedin.com/in/buloaktas)
-- [GitHub](https://github.com/buloaktas)
+- [LinkedIn](https://linkedin.com/in/burak-aktaş-63359326b)
+- [GitHub](https://github.com/imburaktas)
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - UCI Machine Learning Repository for the German Credit Dataset
 - Kaggle community for data science resources
